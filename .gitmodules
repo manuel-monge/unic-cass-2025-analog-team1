@@ -1,0 +1,12 @@
+[submodule "LC_VCO_FPLL"]
+	path = LC_VCO_FPLL
+	url = https://github.com/avishkaherath/LC_VCO_FPLL.git
+[submodule "Unic_Cass_IHP"]
+	path = Unic_Cass_IHP
+	url = https://github.com/LohanAtapattu/Unic_Cass_IHP.git
+[submodule "xpcam-usfq-unical"]
+	path = xpcam-usfq-unical
+	url = https://github.com/EduHolg/xpcam-usfq-unical.git
+[submodule "SSDOR-UNICCASS-2025"]
+	path = SSDOR-UNICCASS-2025
+	url = https://github.com/ChipPUCP/SSDOR-UNICCASS-2025.git
