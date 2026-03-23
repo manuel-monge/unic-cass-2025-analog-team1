@@ -10,3 +10,12 @@
 [submodule "SSDOR-UNICCASS-2025"]
 	path = SSDOR-UNICCASS-2025
 	url = https://github.com/ChipPUCP/SSDOR-UNICCASS-2025.git
+[submodule "unic-cass-wrapper-TOMar2026"]
+	path = unic-cass-wrapper-TOMar2026
+	url = https://github.com/unic-cass/unic-cass-wrapper-TOMar2026.git
+[submodule "openpdk-libraries"]
+	path = openpdk-libraries
+	url = https://github.com/openic-org/openpdk-libraries.git
+[submodule "unic-cass-analog"]
+	path = unic-cass-analog
+	url = https://github.com/LuighiV/unic-cass-analog.git
