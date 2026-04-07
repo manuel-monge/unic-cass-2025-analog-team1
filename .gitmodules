@@ -19,3 +19,6 @@
 [submodule "unic-cass-analog"]
 	path = unic-cass-analog
 	url = https://github.com/LuighiV/unic-cass-analog.git
+[submodule "IHP__CMP9794"]
+	path = IHP__CMP9794
+	url = https://github.com/EstebanJGC/IHP__CMP9794.git
