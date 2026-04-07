@@ -4,4 +4,4 @@ K {}
 V {}
 S {}
 E {}
-C {/home/designer/shared/designs/unic-cass-2025-analog-team1/unic-cass-analog/designs/libs/core_chiptop/user_project_wrapper/user_project_wrapper.sym} 920 -540 0 0 {name=x1}
+C {user_project_wrapper_team1.sym} 1280 -1060 0 0 {name=x1}
