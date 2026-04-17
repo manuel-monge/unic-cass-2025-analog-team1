@@ -1182,7 +1182,7 @@ N 220 -720 240 -720 {lab=IOVSS}
 N 220 -760 220 -720 {lab=IOVSS}
 N 2150 -2680 2150 -2540 {lab=digin[8]}
 C {sg13g2_Corner_noptap.sym} 290 -160 0 0 {name=x5}
-C {sg13g2_IOPadOut16mA.sym} 830 -160 0 1 {name=x6}
+C {sg13g2_IOPadAnalog.sym} 840 -160 0 0 {name=x6}
 C {sg13g2_IOPadVss.sym} 700 -160 0 0 {name=x10}
 C {sg13g2_Filler4000.sym} 400 340 0 0 {name=x11[7:0]}
 C {sg13g2_Filler1000.sym} 520 340 0 0 {name=x12[7:0]}
@@ -1198,7 +1198,7 @@ C {sg13g2_IOPadAnalog.sym} 1480 -160 0 0 {name=x4}
 C {sg13g2_IOPadAnalog.sym} 1640 -160 0 0 {name=x11}
 C {sg13g2_IOPadAnalog.sym} 1800 -160 0 0 {name=x12}
 C {sg13g2_IOPadAnalog.sym} 1960 -160 0 0 {name=x13}
-C {sg13g2_IOPadAnalog.sym} 2120 -160 0 0 {name=x14}
+C {sg13g2_IOPadOut16mA.sym} 2110 -160 0 1 {name=x14}
 C {sg13g2_IOPadIOVdd.sym} 2260 -160 0 0 {name=x16}
 C {sg13g2_IOPadIOVss.sym} 2370 -160 0 0 {name=x17}
 C {iopin.sym} 60 -300 0 1 {name=p1 lab=VSS}
@@ -1210,15 +1210,15 @@ C {lab_pin.sym} 160 220 0 0 {name=p7 sig_type=std_logic lab=VDD}
 C {lab_pin.sym} 160 240 0 0 {name=p8 sig_type=std_logic lab=IOVDD}
 C {lab_pin.sym} 160 260 0 0 {name=p9 sig_type=std_logic lab=IOVSS}
 C {lab_pin.sym} 160 420 0 0 {name=p10 sig_type=std_logic lab=SUB}
-C {lab_pin.sym} 2070 -20 3 0 {name=p12 sig_type=std_logic lab=analog_io[7]}
-C {lab_pin.sym} 1910 -20 3 0 {name=p13 sig_type=std_logic lab=analog_io[6]}
-C {lab_pin.sym} 1750 -20 3 0 {name=p14 sig_type=std_logic lab=analog_io[5]}
-C {lab_pin.sym} 1590 -20 3 0 {name=p15 sig_type=std_logic lab=analog_io[4]}
-C {lab_pin.sym} 1430 -20 3 0 {name=p16 sig_type=std_logic lab=analog_io[3]}
-C {lab_pin.sym} 1270 -20 3 0 {name=p17 sig_type=std_logic lab=analog_io[2]}
-C {lab_pin.sym} 1110 -20 3 0 {name=p18 sig_type=std_logic lab=analog_io[1]}
-C {lab_pin.sym} 950 -20 3 0 {name=p19 sig_type=std_logic lab=analog_io[0]}
-C {lab_pin.sym} 790 -20 3 0 {name=p20 sig_type=std_logic lab=digout}
+C {lab_pin.sym} 1910 -20 3 0 {name=p12 sig_type=std_logic lab=analog_io[7]}
+C {lab_pin.sym} 1750 -20 3 0 {name=p13 sig_type=std_logic lab=analog_io[6]}
+C {lab_pin.sym} 1590 -20 3 0 {name=p14 sig_type=std_logic lab=analog_io[5]}
+C {lab_pin.sym} 1430 -20 3 0 {name=p15 sig_type=std_logic lab=analog_io[4]}
+C {lab_pin.sym} 1270 -20 3 0 {name=p16 sig_type=std_logic lab=analog_io[3]}
+C {lab_pin.sym} 1110 -20 3 0 {name=p17 sig_type=std_logic lab=analog_io[2]}
+C {lab_pin.sym} 950 -20 3 0 {name=p18 sig_type=std_logic lab=analog_io[1]}
+C {lab_pin.sym} 790 -20 3 0 {name=p19 sig_type=std_logic lab=analog_io[0]}
+C {lab_pin.sym} 2070 -20 3 0 {name=p20 sig_type=std_logic lab=digout}
 C {sg13g2_Corner_noptap.sym} 2660 -170 3 0 {name=x7}
 C {sg13g2_IOPadIn.sym} 2660 -720 3 0 {name=x8}
 C {sg13g2_IOPadVss.sym} 2660 -580 3 0 {name=x9}
@@ -1322,15 +1322,15 @@ C {iopin.sym} 240 20 0 1 {name=p49 lab=analog_io[19:0]}
 C {iopin.sym} 240 45 0 1 {name=p11 lab=digin[13:0]}
 C {iopin.sym} 240 70 0 1 {name=p48 lab=digout}
 C {iopin.sym} 240 90 0 1 {name=p50 lab=rf}
-C {lab_pin.sym} 2160 -360 3 1 {name=p51 sig_type=std_logic lab=analog_io_res[7]}
-C {lab_pin.sym} 2000 -360 3 1 {name=p52 sig_type=std_logic lab=analog_io_res[6]}
-C {lab_pin.sym} 1840 -360 3 1 {name=p53 sig_type=std_logic lab=analog_io_res[5]}
-C {lab_pin.sym} 1680 -360 3 1 {name=p54 sig_type=std_logic lab=analog_io_res[4]}
-C {lab_pin.sym} 1520 -360 3 1 {name=p55 sig_type=std_logic lab=analog_io_res[3]}
-C {lab_pin.sym} 1360 -360 3 1 {name=p56 sig_type=std_logic lab=analog_io_res[2]}
-C {lab_pin.sym} 1200 -360 3 1 {name=p57 sig_type=std_logic lab=analog_io_res[1]}
-C {lab_pin.sym} 1040 -360 3 1 {name=p58 sig_type=std_logic lab=analog_io_res[0]}
-C {lab_pin.sym} 880 -360 3 1 {name=p59 sig_type=std_logic lab=digout_c2p}
+C {lab_pin.sym} 2000 -360 3 1 {name=p51 sig_type=std_logic lab=analog_io_res[7]}
+C {lab_pin.sym} 1840 -360 3 1 {name=p52 sig_type=std_logic lab=analog_io_res[6]}
+C {lab_pin.sym} 1680 -360 3 1 {name=p53 sig_type=std_logic lab=analog_io_res[5]}
+C {lab_pin.sym} 1520 -360 3 1 {name=p54 sig_type=std_logic lab=analog_io_res[4]}
+C {lab_pin.sym} 1360 -360 3 1 {name=p55 sig_type=std_logic lab=analog_io_res[3]}
+C {lab_pin.sym} 1200 -360 3 1 {name=p56 sig_type=std_logic lab=analog_io_res[2]}
+C {lab_pin.sym} 1040 -360 3 1 {name=p57 sig_type=std_logic lab=analog_io_res[1]}
+C {lab_pin.sym} 880 -360 3 1 {name=p58 sig_type=std_logic lab=analog_io_res[0]}
+C {lab_pin.sym} 2160 -360 3 1 {name=p59 sig_type=std_logic lab=digout_c2p}
 C {lab_pin.sym} 2460 -2040 2 1 {name=p60 sig_type=std_logic lab=analog_io_res[8]}
 C {lab_pin.sym} 2460 -1880 2 1 {name=p61 sig_type=std_logic lab=digin_p2c[7]}
 C {lab_pin.sym} 2460 -1720 2 1 {name=p62 sig_type=std_logic lab=digin_p2c[6]}
