@@ -1,2 +1,13 @@
 .vscode/
 lvs/
+.claude/
+.DS_Store
+TEAM1-main/.DS_Store
+TEAM1-main/imne07.gds
+TEAM1-main/usfq07.gds
+TEAM1-main/team1-main-wrong-dbu.gds
+TEAM1-main/multiplier_top.gds
+xschemrc
+TEAM1-main/LC_VCO_FPLL.gds
+TEAM1-main/TOP_XPCAM.gds
+TEAM1-main/top_integration_SSDOR.gds
