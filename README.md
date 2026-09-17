@@ -12,37 +12,48 @@ Then, run `xschem` normally.
 
 ## Designs
 
+### Repositories
+
 | Project | Top Cell |  Branch | Commit | Repository |
 | :-----: | :------: | :-----: | :----: | :--------- |
-| openpdk-libraries | user_project_wrapper_team1 | main | `7d06b8a` | https://github.com/openic-org/openpdk-libraries |
-| XPCAM   | TOP_XPCAM | sept-update | `0c15ed` | https://github.com/EstebanJGC/IHP__CMP9794 |
-| SSDOR   | top_integration_SSDOR | main | `344c765` | https://github.com/ChipPUCP/SSDOR-UNICCASS-2025 |
-| LC_VCO_FPLL | LC_VCO_FPLL | main | `333d725` | https://github.com/avishkaherath/LC_VCO_FPLL |
-| Unic_Cass_IHP | multiplier_top | main | `951ee54` | https://github.com/LohanAtapattu/Unic_Cass_IHP |
+| XPCAM   | TOP_XPCAM | sept-update | `0c15edb` | https://github.com/EstebanJGC/IHP__CMP9794 |
+| LC_VCO_FPLL | LC_VCO_FPLL | main | `bc5ef31` | https://github.com/avishkaherath/LC_VCO_FPLL |
+| Unic_Cass_IHP | multiplier_top | main | `156b72a` | https://github.com/LohanAtapattu/Unic_Cass_IHP |
+| openpdk-libraries | | main | `5f9909d` | https://github.com/openic-org/openpdk-libraries |
 
 
-## TOP Cell
-
-Repository: https://github.com/manuel-monge/unic-cass-2025-analog-team1
-
-
-### Project's Top Cells GDS Location
+### Project's Top Cell GDS Location
 
 | Top Cell | Location |
 | :------: | :------- |
 | TOP_XPCAM | IHP__CMP9794/CMP9794-main/layout/klayout/TOP_XPCAM.gds |
-| top_integration_SSDOR |  |
 | LC_VCO_FPLL | LC_VCO_FPLL/gds/LC_VCO_FPLL.gds |
-| Unic_Cass_IHP |  |
+| Unic_Cass_IHP | gds/multiplier_top.gds |
 | user_project_wrapper_team1 | TEAM1-main/user_project_wrapper_team1_updated.gds |
+| team1 | TEAM1-main/team1.gds |
 
 
 ### Project's Top Cells DRC & LVS Status
 
 | Top Cell | Commit |  DRC | LVS | Notes |
 | :------: | :----: | :--: | :-: | :---- |
-| TOP_XPCAM | `0c15ed` | ✅ | ✅ | Integrated to Top Cell. |
-| top_integration_SSDOR | | Not run | ❌ |  Needs fix. |
-| LC_VCO_FPLL | `333d725` | ✅ | ✅ | Integrated to Top Cell. |
-| Unic_Cass_IHP | | Not run | ❌ |  Needs fix. |
-| user_project_wrapper_team1 | | ✅ | ✅ | Integrated to Top Cell. |
+| TOP_XPCAM | `0c15edb` | ✅ | ✅ | Integrated to Top Cell. |
+| LC_VCO_FPLL | `bc5ef31` | ✅ | ✅ | Integrated to Top Cell. |
+| Unic_Cass_IHP | `156b72a` | ✅ | ✅ |  Integrated to Top Cell. |
+
+
+
+## Chip 1 Top Cell Integration
+
+> **Repository:** https://github.com/manuel-monge/unic-cass-2025-analog-team1
+
+
+### Integration Process
+
+| Step      | Status | Notes |
+| :-------: | :----: | :--------------------------------------------- |
+| Schematic |   ✅   | All three designs and pad-frame are connected. |
+| Layout    |   ✅   | All three designs and pad-frame are connected. |
+| DRC (before fillers) |  ✅  | Clean. |
+| LVS (before fillers) |  ✅  | Clean. |
+

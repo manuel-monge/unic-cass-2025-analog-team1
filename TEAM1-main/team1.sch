@@ -101,6 +101,48 @@ N 1790 -1270 2100 -1270 {lab=#net13}
 N 1780 -1250 2100 -1250 {lab=#net12}
 N 1770 -1230 2100 -1230 {lab=#net11}
 N 1400 -940 2100 -940 {lab=#net15}
+N 2060 -1700 2100 -1700 {lab=VDD}
+N 2060 -1500 2100 -1500 {lab=VSS}
+N 2400 -1630 2420 -1630 {lab=#net16}
+N 2420 -1780 2420 -1630 {lab=#net16}
+N 1400 -1180 1520 -1180 {lab=#net16}
+N 1520 -1780 1520 -1180 {lab=#net16}
+N 1520 -1780 2420 -1780 {lab=#net16}
+N 1400 -1160 1510 -1160 {lab=#net17}
+N 1510 -1790 1510 -1160 {lab=#net17}
+N 1510 -1790 2430 -1790 {lab=#net17}
+N 2430 -1790 2430 -1550 {lab=#net17}
+N 2400 -1550 2430 -1550 {lab=#net17}
+N 1660 -1520 2100 -1520 {lab=#net18}
+N 1660 -1520 1660 -1220 {lab=#net18}
+N 1400 -1220 1660 -1220 {lab=#net18}
+N 1650 -1540 2100 -1540 {lab=#net19}
+N 1650 -1540 1650 -1200 {lab=#net19}
+N 1400 -1200 1650 -1200 {lab=#net19}
+N 1670 -1480 2100 -1480 {lab=#net20}
+N 1670 -1480 1670 -1240 {lab=#net20}
+N 1400 -1240 1670 -1240 {lab=#net20}
+N 1400 -1380 1560 -1380 {lab=#net21}
+N 1560 -1680 1560 -1380 {lab=#net21}
+N 1560 -1680 2100 -1680 {lab=#net21}
+N 1570 -1660 2100 -1660 {lab=#net22}
+N 1570 -1660 1570 -1360 {lab=#net22}
+N 1400 -1360 1570 -1360 {lab=#net22}
+N 1580 -1640 2100 -1640 {lab=#net23}
+N 1580 -1640 1580 -1340 {lab=#net23}
+N 1400 -1340 1580 -1340 {lab=#net23}
+N 1400 -1320 1590 -1320 {lab=#net24}
+N 1590 -1620 1590 -1320 {lab=#net24}
+N 1590 -1620 2100 -1620 {lab=#net24}
+N 1400 -1300 1600 -1300 {lab=#net25}
+N 1600 -1560 1600 -1300 {lab=#net25}
+N 1600 -1560 2100 -1560 {lab=#net25}
+N 1400 -1280 1610 -1280 {lab=#net26}
+N 1610 -1600 1610 -1280 {lab=#net26}
+N 1610 -1600 2100 -1600 {lab=#net26}
+N 1400 -1260 1620 -1260 {lab=#net27}
+N 1620 -1580 1620 -1260 {lab=#net27}
+N 1620 -1580 2100 -1580 {lab=#net27}
 C {lab_wire.sym} 2060 -660 0 0 {name=p1 sig_type=std_logic lab=VSS
 }
 C {lab_wire.sym} 2070 -700 0 0 {name=p2 sig_type=std_logic lab=VDD
@@ -160,3 +202,8 @@ C {lab_wire.sym} 2370 -1330 0 1 {name=p14 sig_type=std_logic lab=OUTp
 C {lab_wire.sym} 2370 -1310 0 1 {name=p15 sig_type=std_logic lab=OUTn
 }
 C {XPCAM.sym} 2070 -600 0 0 {name=x2}
+C {multiplier_top.sym} 2260 -1590 0 0 {name=x4}
+C {lab_wire.sym} 2080 -1700 0 0 {name=p6 sig_type=std_logic lab=VDD
+}
+C {lab_wire.sym} 2080 -1500 0 0 {name=p12 sig_type=std_logic lab=VSS
+}
