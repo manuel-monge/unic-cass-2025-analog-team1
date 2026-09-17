@@ -1425,3 +1425,4 @@ C {iopin.sym} -140 -1815 0 1 {name=p149 lab=digin_p2c[3]}
 C {iopin.sym} -140 -1795 0 1 {name=p150 lab=digin_p2c[2]}
 C {iopin.sym} -140 -1775 0 1 {name=p151 lab=digin_p2c[1]}
 C {iopin.sym} -140 -1755 0 1 {name=p152 lab=digin_p2c[0]}
+C {iopin.sym} 60 -100 0 1 {name=p153 lab=SUB}
