@@ -19,6 +19,7 @@ append XSCHEM_LIBRARY_PATH :$env(HOME)/shared/designs/unic-cass-2025-analog-team
 append XSCHEM_LIBRARY_PATH :$env(HOME)/shared/designs/unic-cass-2025-analog-team1/SSDOR-UNICCASS-2025/Layouts
 append XSCHEM_LIBRARY_PATH :$env(HOME)/shared/designs/unic-cass-2025-analog-team1/TEAM1-main
 append XSCHEM_LIBRARY_PATH :$env(HOME)/shared/designs/unic-cass-2025-analog-team1/Unic_Cass_IHP/LVS
+append XSCHEM_LIBRARY_PATH :$env(HOME)/shared/designs/unic-cass-2025-analog-team1/Unic_Cass_IHP/
 
 puts stderr "XSCHEM_LIBRARY_PATH: $XSCHEM_LIBRARY_PATH"
 
