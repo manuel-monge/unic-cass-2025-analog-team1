@@ -45,6 +45,21 @@ N 440 -270 460 -270 {lab=digin[0]}
 N 440 -250 460 -250 {lab=digout}
 N 440 -230 460 -230 {lab=analog_io[0]}
 N 440 -210 460 -210 {lab=analog_io[1]}
+N 700 -860 700 -840 {lab=VSS}
+N 670 -800 670 -740 {lab=VSS}
+N 700 -740 730 -740 {lab=VSS}
+N 730 -800 730 -740 {lab=VSS}
+N 700 -800 700 -740 {lab=VSS}
+N 670 -740 700 -740 {lab=VSS}
+N 700 -840 750 -840 {lab=VSS}
+N 750 -840 750 -740 {lab=VSS}
+N 730 -740 750 -740 {lab=VSS}
+N 670 -580 670 -520 {lab=VDD}
+N 700 -520 730 -520 {lab=VDD}
+N 730 -580 730 -520 {lab=VDD}
+N 700 -580 700 -520 {lab=VDD}
+N 670 -520 700 -520 {lab=VDD}
+N 700 -640 700 -620 {lab=rf}
 C {team1.sym} 290 -480 0 0 {name=x1}
 C {iopin.sym} 490 -870 0 0 {name=p7 lab=VSS}
 C {iopin.sym} 490 -850 0 0 {name=p8 lab=VDD}
@@ -86,3 +101,24 @@ C {iopin.sym} 460 -310 0 0 {name=p138 lab=digin[2]}
 C {iopin.sym} 460 -290 0 0 {name=p139 lab=digin[1]}
 C {iopin.sym} 460 -270 0 0 {name=p140 lab=digin[0]}
 C {iopin.sym} 460 -730 0 0 {name=p11 lab=analog_io[15]}
+C {lab_pin.sym} 700 -860 0 1 {name=p1 sig_type=std_logic lab=VSS}
+C {sg13g2_pr/sg13_lv_nmos.sym} 700 -820 1 0 {name=M1
+l=8u
+w=8u
+ng=1
+m=1
+mm_ok=1
+model=sg13_lv_nmos
+spiceprefix=X
+}
+C {sg13g2_pr/sg13_lv_pmos.sym} 700 -600 1 0 {name=M2
+l=0.4u
+w=0.4u
+ng=1
+m=1
+mm_ok=1
+model=sg13_lv_pmos
+spiceprefix=X
+}
+C {lab_pin.sym} 730 -540 0 1 {name=p2 sig_type=std_logic lab=VDD}
+C {lab_pin.sym} 700 -640 0 1 {name=p3 sig_type=std_logic lab=rf}
